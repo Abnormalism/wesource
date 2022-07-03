@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome -->
+    <link rel="icon" type="image/x-icon" href="/images/brand-logo.png" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>weSource Management</title>
+  </head>
+  <body class="font-poppins">
+    <!-- BEGIN MOBILE NAV -->
+    <nav
+      class="mobile-nav shadow-md overflow-hidden h-[4rem] lg:h-[6rem] relative z-10 bg-white transition duration-300"
+    >
+      <!-- MOBIAL NAV CONTAINER -->
+      <div
+        class="mobile-nav_container flex justify-around items-center lg:h-[6rem] h-[3.5rem]"
+      >
+        <div class="brand flex items-center justify-center">
+          <img
+            src="../images/brand-logo.png"
+            alt=""
+            class="h-[3rem] lg:h-[4rem] mr-2"
+          />
+          <h1 class="text-xl lg:text-2xl font-bold">
+            <span class="text-blue-400">weSource</span> <br />
+            Management
+          </h1>
+        </div>
+        <i class="fas fa-regular fa-bars text-xl burger-btn lg:hidden"></i>
+
+        <div class="nav-links_container hidden lg:block">
+          <ul class="text-xl flex space-x-7">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li>
+              <a href="careers.html" class="nav-link nav-active">Careers</a>
+            </li>
+
+            <li><a href="#contact" class="nav-link">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- MOBIAL NAV CONTAINER -->
+      <!-- NAV MOBILE LINKS -->
+      <div class="mobile-links ml-3 mt-2 lg:hidden">
+        <ul class="text-lg">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li>
+            <a href="careers.html" class="nav-link nav-active">Careers</a>
+          </li>
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- NAV MOBILE LINKS -->
+    </nav>
+    <!-- END MOBILE NAV -->
+
+    <!-- BEGIN CAREERS -->
+    <div
+      class="career-container h-screen w-full overflow-hidden overflow-y-hidden"
+    >
+      <iframe
+        src="https://www.careers-page.com/wesource-management-consultancy-firm?fbclid=IwAR3D1T2QxnTzwpjg5tdKSwW4OFeG7cuJDGHM5V23n1zWv94ypnLu_FCXaBc"
+        frameborder="0"
+        class="mantala h-[calc(100vh+7rem)] w-full relative top-[-7rem] overflow-y-hidden"
+      ></iframe>
+    </div>
+    <!-- END CAREERS -->
+
+    <!-- BEGIN FOOTER -->
+    <footer
+      id="contact"
+      class="h-[calc(100vh-17rem)] bg-slate-700 flex flex-col items-center text-slate-400 relative"
+    >
+      <div class="footer-logo mt-5 flex items-center justify-center w-[90%]">
+        <img
+          src="../images/brand-logo.png"
+          alt=""
+          class="h-[6rem] w-[10rem] grayscale mr-3"
+        />
+        <h1 class="font-bold text-lg">weSource Management</h1>
+      </div>
+
+      <div
+        class="footer-text flex flex-col justify-center h-[10rem] w-[90%] max-w-[800px] mt-5 mx-auto"
+      >
+        <span class="lg:text-2xl">
+          address: Lorem ipsum dolor sit, amet consectetur adipisicing elit
+        </span>
+        <div class="telephone flex items-center space-x-4 lg:text-2xl">
+          <i class="fas fa-regular fa-phone"></i>
+          <h2>2882 - 192 -231</h2>
+        </div>
+        <div class="email flex items-center space-x-4 lg:text-2xl">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>wesource@gmail.com</h3>
+        </div>
+        <div class="footer-social_media text-3xl space-x-4 mt-3 lg:text-4xl">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div
+        class="footer-copyright bg-slate-600 h-[4rem] w-full absolute bottom-0 shadow-xl z-10 rounded-t-lg text-center p-2"
+      >
+        <span class="text-white"
+          >Copyright&copy; 2022 weSource Management Firm. All rights
+          reserved.</span
+        >
+      </div>
+
+      <a
+        href="#"
+        class="to-top scale-1 fixed bottom-20 right-10 z-20 transition duration-400"
+        ><button
+          class="border-2 border-black w-[3rem] h-[3rem] rounded-full bg-blue-400 flex items-center justify-center animate-bounce"
+        >
+          <i class="fa-solid fa-angle-up text-black text-xl"></i>
+        </button>
+      </a>
+    </footer>
+    <!-- BEGIN FOOTER -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
