@@ -46,10 +46,43 @@ window.addEventListener("scroll", () => {
 /* END TOP BTN */
 
 /* BEGIN GSAP ANIMATIONS */
+const TL = gsap.timeline({ defaults: { duration: 1 } });
+
 gsap.fromTo(
   ".nav-link",
   { x: -100, opacity: 0 },
   { x: 0, opacity: 1, stagger: 0.4, ease: Power2.easeIn }
 );
 
+gsap.fromTo(
+  ".core-value",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: ".core-value",
+      start: "top 80%",
+    },
+  }
+);
+
+gsap.fromTo(
+  ".single-offer",
+  {
+    scale: 0,
+  },
+  {
+    scale: 1,
+    stagger: 0.2,
+    duration: 0.75,
+    scrollTrigger: {
+      trigger: ".single-offer",
+    },
+  }
+);
 /* END GSAP ANIMATIONS */
